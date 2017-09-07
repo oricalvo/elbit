@@ -1,5 +1,4 @@
 SystemJS.config({
-    defaultJSExtensions: true,
     map: {
         "angular": "node_modules/angular/angular.js",
         "jquery": "node_modules/jquery/dist/jquery.js",

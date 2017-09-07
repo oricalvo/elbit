@@ -1,4 +1,9 @@
 common/*.js
-common/*.js
+common/*.js.map
+components/*.js
 components/*.js.map
-components/*.js.map
+.idea
+main.js
+main.js.map
+node_modules
+yarn.lock
