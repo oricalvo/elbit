@@ -1,0 +1,12 @@
+<div class="title">
+    Perf Counters
+    <button ng-click="$ctrl.resetAll()">Reset</button>
+</div>
+
+<ul>
+    <li ng-repeat="counter in $ctrl.counters">
+        <span class="name">{{counter.name}}</span>
+        <span class="value">{{counter.getValue()}}</span>
+        <button ng-click="ctrl.reset(counter)" class="reset">Reset</button>
+    </li>
+</ul>

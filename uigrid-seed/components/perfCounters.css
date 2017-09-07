@@ -1,0 +1,43 @@
+perf-counters {
+    font-size: 0.85em;
+    display: none;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    width: 18em;
+    height: 19em;
+    background-color: rgba(255, 255, 255, 0.75);
+    z-index: 1000;
+    border: 1px solid black;
+}
+
+perf-counters.active {
+    display: block;
+}
+
+perf-counters .title {
+    text-align: center;
+    font-size: 1.15em;
+    padding: 0.25em 0;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+}
+
+perf-counters ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+perf-counters ul li {
+    padding: 0.25em 0.5em;
+}
+
+perf-counters ul li .name {
+    color: green;
+}
+
+perf-counters ul li button.reset {
+    float: right;
+    font-size: 0.75em;
+}

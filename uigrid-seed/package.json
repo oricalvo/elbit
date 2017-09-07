@@ -1,0 +1,23 @@
+{
+  "name": "uigrid-seed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular-ui-grid": "^4.0.2",
+    "jquery": "^3.2.1",
+    "systemjs": "^0.20.5",
+    "systemjs-plugin-css": "^0.1.32",
+    "systemjs-plugin-text": "0.0.9"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.4",
+    "http-server": "^0.9.0",
+    "typescript": "^2.1.5"
+  }
+}
