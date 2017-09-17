@@ -1,0 +1,10 @@
+<div>
+  <input [(ngModel)]="searchStr" (keydown)="onKeyDown($event)">
+  <button (click)="filter()">Filter</button>
+</div>
+
+<ul>
+  <li *ngFor="let contact of contacts">
+    <span>{{contact.name}}</span>
+  </li>
+</ul>
